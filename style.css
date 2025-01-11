@@ -94,9 +94,9 @@
   
   .gender-options {
     display: flex;
-    justify-content: center; /* Center-aligns content horizontally */
-    align-items: center; /* Aligns radio buttons and labels vertically */
-    gap: 3px; /* Adjusts the spacing between "Male" and "Female" */
+    justify-content: center; 
+    align-items: center; 
+    gap: 3px; 
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -231,7 +231,7 @@
 
 .form {
   width: 450px;
-    height: auto; /* Changed to auto to accommodate all content */
+    height: auto; 
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     position: absolute;
     top: 50px;
@@ -239,17 +239,17 @@
     transform: translateX(-50%);
     border-radius: 10px;
     padding: 20px;
-    box-sizing: border-box; /* Ensures padding is included in width */
+    box-sizing: border-box; 
 }
 .form h2 {
   width: 100%;
   font-family: sans-serif;
   text-align: center;
   color: #f50410a1;
-  font-size: 24px; /* Slightly larger font */
+  font-size: 24px; 
   background-color: #fff;
   border-radius: 10px;
-  margin: 2px 0 15px 0; /* Adjusted margins */
+  margin: 2px 0 15px 0; 
   padding: 8px;
 }
 
@@ -281,7 +281,7 @@
 
 .btnn {
   width: 100%;
-  height: 40px; /* Kept original height */
+  height: 40px; 
   background: #f50410a1;
   border: none;
   margin-top: 25px;
@@ -303,7 +303,7 @@
 }
 
 .form {
-  top: 180px; /* Moves the form box further down */
+  top: 180px; 
 }
 
 .form .link {
@@ -324,15 +324,15 @@
   text-align: center;
 }
 .icons {
-  text-align: center; /* Center the icons container */
-  padding-bottom: 20px; /* Add some space at the bottom */
+  text-align: center; 
+  padding-bottom: 20px; 
 }
 
 .icons a {
   text-decoration: none;
   color: #fff;
-  display: inline-block; /* Allows horizontal alignment */
-  margin: 0 10px; /* Adds space between icons */
+  display: inline-block; 
+  margin: 0 10px;
 }
 
 .icons ion-icon {
@@ -368,7 +368,7 @@ ul li a:hover {
   color: #f50410a1;
 }
 
-/* Blood droplet effect */
+
 ul li a::before,
 ul li a::after {
   content: '';
@@ -471,7 +471,6 @@ ul li a:hover::after {
   }
 }
 
-/* Bullet holes */
 .gunshot::after {
   content: '';
   box-shadow: 
@@ -486,7 +485,7 @@ ul li a:hover::after {
   opacity: 1;
 }
 
-/* Muzzle flash */
+
 .gunshot::before {
   content: '';
   background: radial-gradient(circle, #fff, #f50410a1, transparent 70%);
@@ -563,7 +562,7 @@ ul li a:hover::after {
   font-size: 18px;
   display: flex;
   align-items: center;
-  margin-right: 120px; /* Space between options */
+  margin-right: 120px; 
   cursor: pointer;
   line-height: 1.5px;
 }
@@ -593,7 +592,7 @@ ul li a:hover::after {
   transform: translate(-50%, -50%);
 }
 
-/* Container styles */
+
 .gender-container {
   display: flex;
   justify-content: flex-start;
@@ -741,7 +740,7 @@ body.login-page {
   justify-content: center;
   align-items: center;
   flex-grow: 1;
-  padding-top: 60px; /* Add some top padding to avoid overlap with the logo */
+  padding-top: 60px;
 }
 
 .login-page .login-header {
@@ -817,7 +816,7 @@ body.login-page {
   animation: flicker 2s infinite alternate;
 }
 
-/* Responsive design */
+
 @media screen and (max-width: 768px) {
   .login-page .login-header h1 {
       font-size: 50px;
@@ -835,7 +834,7 @@ body.login-page {
 
 }
 
-/* Style for inputs and selects */
+
 input, select {
     width: 100%;
     padding: 10px;
@@ -845,7 +844,7 @@ input, select {
     box-sizing: border-box;
 }
 
-/* Style for the gender options */
+
 .gender-container {
     margin-bottom: 20px;
 }
@@ -865,7 +864,7 @@ input, select {
     width: auto;
 }
 
-/* Style for the submit button */
+
 .btnn.gunshot {
     background-color: #f50410;
     color: white;
