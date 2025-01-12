@@ -471,7 +471,7 @@ ul li a:hover::after {
   }
 }
 
-/* Bullet holes */
+
 .gunshot::after {
   content: '';
   box-shadow: 
@@ -486,7 +486,7 @@ ul li a:hover::after {
   opacity: 1;
 }
 
-/* Muzzle flash */
+
 .gunshot::before {
   content: '';
   background: radial-gradient(circle, #fff, #f50410a1, transparent 70%);
